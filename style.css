@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        }
+.corp{
+    background: url("images/armoirie.jpg") no-repeat; 
+    background-size: cover;
+    background-position: center;
+    /* background-color: beige; */
+}
+
+
+#title hr{
+    margin-left: 35%;
+    width: 30%;
+    background-color: #158212;
+    
+}
+#title h2{
+    color: #fee407;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.main {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card .left img{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    margin-top: 25px;
+}
+.main .content .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    display: flex;
+
+}
+.main .content .card .right{
+    flex: 0 0 70%;
+}
+/* fin style acueil */
+
+/* debut style connexion */
+
+/* style connexion*/
